@@ -44,7 +44,7 @@ contains computed numbers. `expected/` holds Tables 2 and 3 as printed in the pa
   weights w_k = 1/((k+1)(k+2)) of Remark 3.5 and with equal weights w_k = 1/n; the Beta plug-in 1 − β^{1/N}; the
   thinning baseline of §5.2 (retained sample size, confidence level, gap chosen before the data).
 - `sticky.py`: the sticky chain of Section 4 (refresh probability (4.1), mixing time, risk quantile of the largest value)
-  and the threshold ε♯ of Theorem 4.3(a), computed by bisection from binomial distribution functions.
+  and the threshold ε♯ of Theorem 4.3(a), computed by root finding (Brent's method) on binomial distribution functions.
 - `chains.py`: the chains of §5.3 and the exact exceedance probabilities of Table 3. For a finite chain, the probability
   that n retained states stay in a set S is π_S Q_S^{n−1} 1 with Q_S the kernel restricted to S.
 - `reserve.py`: the reserve problem of §5.2 (demand model, greedy reconstruction, exact risk V(x), simulation).
