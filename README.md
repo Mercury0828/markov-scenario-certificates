@@ -5,6 +5,9 @@ Code and data that reproduce every computed figure, table and number of the pape
 > Jiachen Shen and Hui Zhong, *Scenario optimization with Markovian data: a posteriori risk certificates from a single
 > trajectory*, manuscript, 2026.
 
+Archived at Zenodo: [doi:10.5281/zenodo.22972085](https://doi.org/10.5281/zenodo.22972085) (version 1.0.0, the code and
+data used in the paper; all versions: [doi:10.5281/zenodo.22972084](https://doi.org/10.5281/zenodo.22972084)).
+
 The paper gives an a posteriori risk certificate for scenario decisions computed from one trajectory of a stationary,
 uniformly mixing Markov chain, and shows that its dependence on the mixing time cannot be avoided. Each script here writes
 its output to `results/`, and `scripts/check_paper.py` compares the regenerated values with the values printed in the
