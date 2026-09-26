@@ -1,0 +1,23 @@
+\begin{tabular}{lrcccccccc}
+\toprule
+ & & \multicolumn{2}{c}{$\varepsilon_{\rm UB}(k_N)$} & \multicolumn{2}{c}{Beta plug-in} & \multicolumn{2}{c}{compression plug-in} & \multicolumn{2}{c}{thinning} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}\cmidrule(lr){9-10}
+chain & $t_{\rm mix}$ & $10^3$ & $10^4$ & $10^3$ & $10^4$ & $10^3$ & $10^4$ & $10^3$ & $10^4$ \\
+\midrule
+sticky, uniform on $[0,1]$ & 5 & 0 & 0 & 0.4834 & 0.4841 & 0.0172 & 0.0056 & 0.0002 & 0 \\
+sticky, 100 points & 5 & 0 & 0 & 0.0892 & 0 & 0.0079 & 0 & 0.0001 & 0 \\
+two-state (a) & 5 & 0 & 0.0004 & 0.0025 & 0.0004 & 0.0025 & 0.0004 & 0 & 0 \\
+two-state (b) & 5 & 0 & 0 & 0.3371 & 0.3369 & 0 & 0 & 0 & 0 \\
+lazy cycle & 5 & 0 & -- & 0 & -- & 0 & -- & 0 & -- \\
+perturbed cycle & 5 & 0 & -- & 0 & -- & 0 & -- & 0 & -- \\
+discretized AR(1) & 5 & 0 & -- & 0 & -- & 0 & -- & 0.0001 & -- \\
+\addlinespace
+sticky, uniform on $[0,1]$ & 20 & 0 & 0 & 0.8162 & 0.8180 & 0.3218 & 0.2381 & 0.0002 & 0.0001 \\
+sticky, 100 points & 20 & 0 & 0 & 0.5094 & 0.0013 & 0.2593 & 0.0013 & 0.0002 & 0.0001 \\
+two-state (a) & 20 & 0 & 0 & 0.1879 & 0.1168 & 0.1879 & 0.1168 & 0 & 0 \\
+two-state (b) & 20 & 0 & 0 & 0.7380 & 0.7399 & 0 & 0 & 0 & 0 \\
+lazy cycle & 19 & 0 & -- & 0 & -- & 0 & -- & 0.0002 & -- \\
+perturbed cycle & 20 & 0 & -- & 0 & -- & 0 & -- & 0 & -- \\
+discretized AR(1) & 20 & 0 & -- & 0.0225 & -- & 0.0225 & -- & 0.0001 & -- \\
+\bottomrule
+\end{tabular}

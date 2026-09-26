@@ -1,0 +1,13 @@
+{
+  "title": "Code and data for: Scenario optimization with Markovian data: a posteriori risk certificates from a single trajectory",
+  "upload_type": "software",
+  "description": "Code and simulation data that reproduce every computed figure, table and number of the paper 'Scenario optimization with Markovian data: a posteriori risk certificates from a single trajectory' by Jiachen Shen and Hui Zhong: the certificate of the paper and the compression certificates for independent data, the lower-bound threshold on sticky chains, the exact exceedance probabilities of the adversarial chains, and the Monte Carlo study of the reserve problem with its archived runs. A comparison script checks every printed value.",
+  "creators": [
+    {"name": "Shen, Jiachen", "affiliation": "University of Houston", "orcid": "0000-0002-7233-497X"},
+    {"name": "Zhong, Hui", "affiliation": "Miami University", "orcid": "0009-0005-7952-007X"}
+  ],
+  "keywords": ["scenario optimization", "chance constraints", "sample compression", "Markov chains", "mixing time",
+               "risk certificates"],
+  "license": "MIT",
+  "access_right": "open"
+}
